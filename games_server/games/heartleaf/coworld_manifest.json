@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Metta-AI/metta/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
+  "$schema": "https://raw.githubusercontent.com/softmax-universe/softmax/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
   "game": {
     "name": "heartleaf",
     "version": "0.1.0",
@@ -118,17 +118,17 @@
     "protocols": {
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md"
       },
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md"
       }
     },
     "docs": {
       "readme": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/coworld-heartleaf/blob/master/README.md"
+        "value": "https://github.com/softmax-universe/coworld-heartleaf/blob/master/README.md"
       },
       "pages": [
         {
@@ -136,7 +136,7 @@
           "title": "rules.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/coworld-heartleaf/blob/master/docs/rules.md"
+            "value": "https://github.com/softmax-universe/coworld-heartleaf/blob/master/docs/rules.md"
           }
         },
         {
@@ -144,7 +144,7 @@
           "title": "play_heartleaf.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/coworld-heartleaf/blob/master/docs/play_heartleaf.md"
+            "value": "https://github.com/softmax-universe/coworld-heartleaf/blob/master/docs/play_heartleaf.md"
           }
         }
       ]
@@ -187,8 +187,8 @@
       "name": "BitWorld Score Grader",
       "type": "grader",
       "description": "Generic BitWorld grader that scores episode interest from score spread and game-specific activity signals.",
-      "source_url": "https://github.com/Metta-AI/graders/tree/main/graders/bitworld_score/bitworld_score_grader",
-      "image": "ghcr.io/metta-ai/graders-bitworld-score:latest"
+      "source_url": "https://github.com/softmax-universe/graders/tree/main/graders/bitworld_score/bitworld_score_grader",
+      "image": "ghcr.io/softmax-universe/graders-bitworld-score:latest"
     }
   ],
   "variants": [

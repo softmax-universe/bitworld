@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Metta-AI/metta/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
+  "$schema": "https://raw.githubusercontent.com/softmax-universe/softmax/main/packages/coworld/src/coworld/coworld_manifest_schema.json",
   "game": {
     "name": "among_them",
     "version": "0.1.20",
@@ -328,17 +328,17 @@
     "protocols": {
       "player": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/bitscreen_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/bitscreen_v1.md"
       },
       "global": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md"
+        "value": "https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md"
       }
     },
     "docs": {
       "readme": {
         "type": "uri",
-        "value": "https://github.com/Metta-AI/cogame-among-them/blob/master/README.md"
+        "value": "https://github.com/softmax-universe/coworld-among-them/blob/master/README.md"
       },
       "pages": [
         {
@@ -354,7 +354,7 @@
           "title": "game source",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/cogame-among-them/tree/master"
+            "value": "https://github.com/softmax-universe/coworld-among-them/tree/master"
           }
         },
         {
@@ -362,7 +362,7 @@
           "title": "player.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/players/tree/main/players/among_them/starter"
+            "value": "https://github.com/softmax-universe/players/tree/main/players/among_them/starter"
           }
         },
         {
@@ -370,7 +370,7 @@
           "title": "submit.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/cogame-among-them/blob/master/players/how_to_submit_coworld_policy.md"
+            "value": "https://github.com/softmax-universe/coworld-among-them/blob/master/players/how_to_submit_coworld_policy.md"
           }
         },
         {
@@ -378,7 +378,7 @@
           "title": "optimizer.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/optimizers"
+            "value": "https://github.com/softmax-universe/optimizers"
           }
         },
         {
@@ -386,7 +386,7 @@
           "title": "optimizer_game_spec.json",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/cogame-among-them/blob/master/coworld_manifest.json"
+            "value": "https://github.com/softmax-universe/coworld-among-them/blob/master/coworld_manifest.json"
           }
         },
         {
@@ -402,7 +402,7 @@
           "title": "optimizer_skills.ts",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/optimizers/blob/main/lib/skills/data.ts"
+            "value": "https://github.com/softmax-universe/optimizers/blob/main/lib/skills/data.ts"
           }
         },
         {
@@ -410,7 +410,7 @@
           "title": "optimizer_policy_registry.json",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/optimizers/blob/main/lib/policy-templates.json"
+            "value": "https://github.com/softmax-universe/optimizers/blob/main/lib/policy-templates.json"
           }
         },
         {
@@ -418,7 +418,7 @@
           "title": "commissioner.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/commissioners/tree/main/commissioners/among_them/among_them_commissioner"
+            "value": "https://github.com/softmax-universe/commissioners/tree/main/commissioners/among_them/among_them_commissioner"
           }
         },
         {
@@ -426,7 +426,7 @@
           "title": "reporter.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/reporters/tree/main/reporters/among_them/among_them_summarizer"
+            "value": "https://github.com/softmax-universe/reporters/tree/main/reporters/among_them/among_them_summarizer"
           }
         },
         {
@@ -434,7 +434,7 @@
           "title": "grader.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/graders/tree/main/graders/among_them/among_them_grader"
+            "value": "https://github.com/softmax-universe/graders/tree/main/graders/among_them/among_them_grader"
           }
         },
         {
@@ -442,7 +442,7 @@
           "title": "diagnoser.md",
           "content": {
             "type": "uri",
-            "value": "https://github.com/Metta-AI/diagnosers/tree/main/diagnosers/among_them/among_them_diagnoser"
+            "value": "https://github.com/softmax-universe/diagnosers/tree/main/diagnosers/among_them/among_them_diagnoser"
           }
         }
       ]
@@ -454,7 +454,7 @@
       "name": "evidencebot_v2",
       "type": "player",
       "description": "Stronger deterministic Among Them visual player with evidence tracking and task routing.",
-      "source_url": "https://github.com/Metta-AI/cogame-among-them/tree/master/players/evidencebot_v2",
+      "source_url": "https://github.com/softmax-universe/coworld-among-them/tree/master/players/evidencebot_v2",
       "image": "public.ecr.aws/s3j4p9s7/treeform/players/evidencebot-v2:latest",
       "run": [
         "/bin/evidencebot_v2"
@@ -465,7 +465,7 @@
       "name": "italkalot",
       "type": "player",
       "description": "LLM-guided Among Them player that talks and votes using live game observations.",
-      "source_url": "https://github.com/Metta-AI/cogame-among-them/tree/master/players/italkalot",
+      "source_url": "https://github.com/softmax-universe/coworld-among-them/tree/master/players/italkalot",
       "image": "public.ecr.aws/s3j4p9s7/treeform/players/italkalot:latest",
       "run": [
         "/bin/italkalot"
@@ -476,7 +476,7 @@
       "name": "ivotewell",
       "type": "player",
       "description": "Deterministic Among Them player focused on voting and smoke-test episodes.",
-      "source_url": "https://github.com/Metta-AI/cogame-among-them/tree/master/players/ivotewell",
+      "source_url": "https://github.com/softmax-universe/coworld-among-them/tree/master/players/ivotewell",
       "image": "public.ecr.aws/s3j4p9s7/treeform/players/ivotewell:latest",
       "run": [
         "/bin/ivotewell"
@@ -487,7 +487,7 @@
       "name": "lively_lecun",
       "type": "player",
       "description": "Go-based Among Them visual player inspired by the nottoodumb perception stack.",
-      "source_url": "https://github.com/Metta-AI/cogame-among-them/tree/master/players/lively_lecun",
+      "source_url": "https://github.com/softmax-universe/coworld-among-them/tree/master/players/lively_lecun",
       "image": "public.ecr.aws/s3j4p9s7/treeform/players/lively-lecun:latest",
       "run": [
         "/bin/lively_lecun"
@@ -498,7 +498,7 @@
       "name": "nottoodumb",
       "type": "player",
       "description": "Compact deterministic baseline Among Them visual player.",
-      "source_url": "https://github.com/Metta-AI/cogame-among-them/tree/master/players/nottoodumb",
+      "source_url": "https://github.com/softmax-universe/coworld-among-them/tree/master/players/nottoodumb",
       "image": "public.ecr.aws/s3j4p9s7/treeform/players/nottoodumb:latest",
       "run": [
         "/bin/nottoodumb"
@@ -510,9 +510,9 @@
       "id": "among-them-commissioner",
       "name": "Among Them Commissioner",
       "type": "commissioner",
-      "description": "Among Them tournament commissioner implemented in Observatory and mirrored in Metta-AI/commissioners. It schedules episodes, computes rankings, moves players between divisions, and handles initial placement.",
-      "source_url": "https://github.com/Metta-AI/commissioners/tree/main/commissioners/among_them/among_them_commissioner",
-      "image": "ghcr.io/metta-ai/among-them-commissioner:latest"
+      "description": "Among Them tournament commissioner implemented in Observatory and mirrored in softmax-universe/commissioners. It schedules episodes, computes rankings, moves players between divisions, and handles initial placement.",
+      "source_url": "https://github.com/softmax-universe/commissioners/tree/main/commissioners/among_them/among_them_commissioner",
+      "image": "ghcr.io/softmax-universe/among-them-commissioner:latest"
     }
   ],
   "reporter": [
@@ -521,8 +521,8 @@
       "name": "Among Them Summarizer",
       "type": "reporter",
       "description": "Reference Among Them reporter owned by James Boggs. It consumes replay/results artifacts and writes a zip with Markdown, HTML, and JSON for surfaces such as The Column.",
-      "source_url": "https://github.com/Metta-AI/reporters/tree/main/reporters/among_them/among_them_summarizer",
-      "image": "ghcr.io/metta-ai/among-them-summarizer:latest"
+      "source_url": "https://github.com/softmax-universe/reporters/tree/main/reporters/among_them/among_them_summarizer",
+      "image": "ghcr.io/softmax-universe/among-them-summarizer:latest"
     }
   ],
   "grader": [
@@ -531,8 +531,8 @@
       "name": "Among Them Grader",
       "type": "grader",
       "description": "Reference Among Them grader owned by Kyle. It consumes replay/results artifacts and emits a scalar creator-interest score for ranking useful episodes.",
-      "source_url": "https://github.com/Metta-AI/graders/tree/main/graders/among_them/among_them_grader",
-      "image": "ghcr.io/metta-ai/among-them-grader:latest"
+      "source_url": "https://github.com/softmax-universe/graders/tree/main/graders/among_them/among_them_grader",
+      "image": "ghcr.io/softmax-universe/among-them-grader:latest"
     }
   ],
   "diagnoser": [
@@ -541,8 +541,8 @@
       "name": "Among Them Diagnoser",
       "type": "diagnoser",
       "description": "Reference Among Them diagnoser owned by Aaron Landy. It consumes a target policy plus episode artifacts and emits policy-assay advice for the coding agent improving that policy.",
-      "source_url": "https://github.com/Metta-AI/diagnosers/tree/main/diagnosers/among_them/among_them_diagnoser",
-      "image": "ghcr.io/metta-ai/among-them-diagnoser:latest"
+      "source_url": "https://github.com/softmax-universe/diagnosers/tree/main/diagnosers/among_them/among_them_diagnoser",
+      "image": "ghcr.io/softmax-universe/among-them-diagnoser:latest"
     }
   ],
   "optimizer": [
@@ -551,8 +551,8 @@
       "name": "Coworld Optimizer",
       "type": "optimizer",
       "description": "Game-agnostic optimizer owned by Aaron Landy. It consumes the Coworld manifest, many replay/results artifacts, reporter outputs, grader scores, and diagnoser outputs to drive local policy improvement.",
-      "source_url": "https://github.com/Metta-AI/optimizers",
-      "image": "ghcr.io/metta-ai/coworld-optimizer:latest"
+      "source_url": "https://github.com/softmax-universe/optimizers",
+      "image": "ghcr.io/softmax-universe/coworld-optimizer:latest"
     }
   ],
   "variants": [
